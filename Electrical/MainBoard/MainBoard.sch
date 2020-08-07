@@ -28438,11 +28438,11 @@ Based on  the following source:
 </class>
 </classes>
 <parts>
-<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA16-P" device="" package3d_urn="urn:adsk.eagle:package:4314/1"/>
-<part name="IC2" library="nh-ic" deviceset="MCP4922" device="-E/SL"/>
-<part name="IC3" library="nh-ic" deviceset="MCP4921" device="-E/SN"/>
-<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
-<part name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
+<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA16-P" device="" package3d_urn="urn:adsk.eagle:package:4314/1" override_package3d_urn="urn:adsk.eagle:package:22513599/2" override_package_urn="urn:adsk.eagle:footprint:4151/1"/>
+<part name="IC2" library="nh-ic" deviceset="MCP4922" device="-E/SL" override_package3d_urn="urn:adsk.eagle:package:22514112/2" override_package_urn="urn:adsk.eagle:footprint:22514113/1"/>
+<part name="IC3" library="nh-ic" deviceset="MCP4921" device="-E/SN" override_package3d_urn="urn:adsk.eagle:package:22514205/2" override_package_urn="urn:adsk.eagle:footprint:22514206/1"/>
+<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2" override_package3d_urn="urn:adsk.eagle:package:22514194/2" override_package_urn="urn:adsk.eagle:footprint:16137/1"/>
+<part name="IC5" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2" override_package3d_urn="urn:adsk.eagle:package:22514199/2" override_package_urn="urn:adsk.eagle:footprint:16137/1"/>
 <part name="R1" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="24k"/>
 <part name="R2" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="R3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
@@ -28465,8 +28465,8 @@ Based on  the following source:
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
-<part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC160*" device="" package3d_urn="urn:adsk.eagle:package:28730/1"/>
-<part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC140-10" device="" package3d_urn="urn:adsk.eagle:package:28730/1"/>
+<part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC160*" device="" package3d_urn="urn:adsk.eagle:package:28730/1" override_package3d_urn="urn:adsk.eagle:package:22513634/2" override_package_urn="urn:adsk.eagle:footprint:28658/1"/>
+<part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC140-10" device="" package3d_urn="urn:adsk.eagle:package:28730/1" override_package3d_urn="urn:adsk.eagle:package:22513641/2" override_package_urn="urn:adsk.eagle:footprint:28658/1"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -28480,8 +28480,8 @@ Based on  the following source:
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R15" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
-<part name="Q3" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC140-10" device="" package3d_urn="urn:adsk.eagle:package:28730/1"/>
-<part name="Q4" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC160*" device="" package3d_urn="urn:adsk.eagle:package:28730/1"/>
+<part name="Q3" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC140-10" device="" package3d_urn="urn:adsk.eagle:package:28730/1" override_package3d_urn="urn:adsk.eagle:package:22513645/2" override_package_urn="urn:adsk.eagle:footprint:28658/1"/>
+<part name="Q4" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC160*" device="" package3d_urn="urn:adsk.eagle:package:28730/1" override_package3d_urn="urn:adsk.eagle:package:22513657/2" override_package_urn="urn:adsk.eagle:footprint:28658/1"/>
 <part name="P-5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -28544,7 +28544,7 @@ Based on  the following source:
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ATX_+3V3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
-<part name="SV1" library="con-harting-ml" library_urn="urn:adsk.eagle:library:149" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:6967/1"/>
+<part name="SV1" library="con-harting-ml" library_urn="urn:adsk.eagle:library:149" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:6967/1" override_package3d_urn="urn:adsk.eagle:package:22481604/2" override_package_urn="urn:adsk.eagle:footprint:6908/1"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -28557,13 +28557,13 @@ Based on  the following source:
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q8" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value="16MHz"/>
+<part name="Q8" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" override_package3d_urn="urn:adsk.eagle:package:22513736/2" override_package_urn="urn:adsk.eagle:footprint:11992/1" value="16MHz"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100u"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="47R"/>
 <part name="R16" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="47R"/>
-<part name="IC6" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT232R" device="L" package3d_urn="urn:adsk.eagle:package:14013/1"/>
+<part name="IC6" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT232R" device="L" package3d_urn="urn:adsk.eagle:package:14013/1" override_package3d_urn="urn:adsk.eagle:package:22513824/2" override_package_urn="urn:adsk.eagle:footprint:14004/1"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -28573,7 +28573,7 @@ Based on  the following source:
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="tps2511" deviceset="DUAL-PORT-USB-REC" device=""/>
+<part name="U$2" library="tps2511" deviceset="DUAL-PORT-USB-REC" device="" override_package3d_urn="urn:adsk.eagle:package:22513853/2" override_package_urn="urn:adsk.eagle:footprint:22513854/1"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OUT1" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
@@ -28585,9 +28585,9 @@ Based on  the following source:
 <part name="OUT3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_OUT3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV2" library="con-harting-ml" library_urn="urn:adsk.eagle:library:149" deviceset="ML14" device="" package3d_urn="urn:adsk.eagle:package:6970/1"/>
-<part name="KK1" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="FK209" device="" package3d_urn="urn:adsk.eagle:package:14193/1"/>
-<part name="KK2" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="FK209" device="" package3d_urn="urn:adsk.eagle:package:14193/1"/>
+<part name="SV2" library="con-harting-ml" library_urn="urn:adsk.eagle:library:149" deviceset="ML14" device="" package3d_urn="urn:adsk.eagle:package:6970/1" override_package3d_urn="urn:adsk.eagle:package:22481602/2" override_package_urn="urn:adsk.eagle:footprint:6913/1"/>
+<part name="KK1" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="FK209" device="" package3d_urn="urn:adsk.eagle:package:14193/1" override_package3d_urn="urn:adsk.eagle:package:22514802/2" override_package_urn="urn:adsk.eagle:footprint:14160/1"/>
+<part name="KK2" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="FK209" device="" package3d_urn="urn:adsk.eagle:package:14193/1" override_package3d_urn="urn:adsk.eagle:package:22514815/2" override_package_urn="urn:adsk.eagle:footprint:14160/1"/>
 <part name="U$3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="SKK-510" device="" package3d_urn="urn:adsk.eagle:package:21817512/4"/>
 <part name="U$4" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="SKK-510" device="" package3d_urn="urn:adsk.eagle:package:21817512/4"/>
 <part name="U$5" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="SKK-510" device="" package3d_urn="urn:adsk.eagle:package:21817512/4"/>
@@ -28601,16 +28601,16 @@ Based on  the following source:
 <part name="GND_3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_4" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="ATX_PWRON" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TOPLED-2-" device="-" package3d_urn="urn:adsk.eagle:package:15835/1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TOPLED-2-" device="-" package3d_urn="urn:adsk.eagle:package:15835/1" override_package3d_urn="urn:adsk.eagle:package:22514101/2" override_package_urn="urn:adsk.eagle:footprint:15690/1"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R31" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R"/>
 <part name="R32" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1" override_package3d_urn="urn:adsk.eagle:package:22514837/2" override_package_urn="urn:adsk.eagle:footprint:8078259/1"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10R"/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="X1" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="FH12-45S-0.5S" device="H" package3d_urn="urn:adsk.eagle:package:7301/1"/>
+<part name="X1" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="FH12-45S-0.5S" device="H" package3d_urn="urn:adsk.eagle:package:7301/1" override_package3d_urn="urn:adsk.eagle:package:22483359/2" override_package_urn="urn:adsk.eagle:footprint:7231/1"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4u7"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4u7"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4u7"/>
@@ -28640,13 +28640,13 @@ Based on  the following source:
 <part name="DVM1" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="DVM2" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_DVM" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
-<part name="X3" library="con-berg" library_urn="urn:adsk.eagle:library:130" deviceset="PN61729-S" device="" package3d_urn="urn:adsk.eagle:package:6149/1"/>
+<part name="X3" library="con-berg" library_urn="urn:adsk.eagle:library:130" deviceset="PN61729-S" device="" package3d_urn="urn:adsk.eagle:package:6149/1" override_package3d_urn="urn:adsk.eagle:package:22481541/2" override_package_urn="urn:adsk.eagle:footprint:6144/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
-v1.0</text>
+v1.1</text>
 <text x="50.8" y="134.62" size="3.81" layer="97">DDS1 / DDS2</text>
 <text x="7.62" y="63.5" size="3.81" layer="97">Power Supply</text>
 </plain>
@@ -29609,7 +29609,7 @@ v1.0</text>
 <plain>
 <text x="223.52" y="167.64" size="1.778" layer="91">(RST)</text>
 <text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
-v1.0</text>
+v1.1</text>
 <text x="162.56" y="170.18" size="3.81" layer="97" align="top-left">Display</text>
 <text x="170.18" y="43.18" size="3.81" layer="97" align="top-left">Display
 Backlight</text>
@@ -30521,7 +30521,7 @@ Backlight</text>
 <text x="231.14" y="68.58" size="1.778" layer="91" rot="R90">TX / green</text>
 <text x="246.38" y="68.58" size="1.778" layer="91" rot="R90">RX / red</text>
 <text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
-v1.0</text>
+v1.1</text>
 <text x="22.86" y="162.56" size="3.81" layer="97" align="top-left">Microcontroller</text>
 <text x="185.42" y="162.56" size="3.81" layer="97" align="top-left">ISP</text>
 <text x="167.64" y="129.54" size="3.81" layer="97" align="top-left">FrontPanel
@@ -31256,6 +31256,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
