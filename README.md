@@ -1,4 +1,4 @@
-# PowerSupplySigGen
+# PS_Fgen_HW
 Hardware for an PowerSupply and Functiongenerator build from an ATX power supply.
 
 ## ATX Supply
@@ -40,7 +40,7 @@ Input Range	| 0 .. 20 V DC	| 0 .. 20 V DC
 **Caution:** Negative voltages on the DMM inputs are not allowed!
 
 ### USB outputs
-Two USB outputs are available. They are connected to the 5V SB output of the ATX supply. So the combined current capability for both USB ports are 1 A.
+Two USB outputs are available. They are connected to the 5V output of the ATX supply. So the combined current capability for both USB ports are 23 A.
 
 ### USB input
 The USB input can be used to communicate to the device via serial port.
@@ -64,7 +64,7 @@ The user interface logic is defined by the firmware.
 The electronic is divided into two PCBs:
 - **FrontPanel:** The front panel is containing 16 push buttons forming a 4x4 keypad and a rotary encoder for user input. It is connected to the MainBoard using a ribbon cable.
 - **MainBoard:** The main board is containing all other components that can be grouped like following:
-	- *Microcontroller*: The main controller of the power supply and function generator. It controls everything from user input handling to output generation. The used type is an ATmega16.
+	- *Microcontroller*: The main controller of the power supply and function generator. It controls everything from user input handling to output generation. The used type is an ATmega1284P.
 	- *Serial communication:* A FT232RL USB-UART IC is used for serial communication to the microcontroller via USB.
 	- *GLCD:* The used graphic LCD model is ``Varitronix, COG-VLGEM1277-01``. It has 240x64 pixel and is controllable via SPI. The onboard display driver is ``S1D15721`` **Important:** The display uses a 3.3 V logic level!
 	- *ATX voltage monitors:* The ATX 5 V and 3.3 V lines are each directly connected to ADCs of the microcontroller. The 12 V line is using a resistor voltage divider to scale the voltage to the allowed input range of 0..5V of the ADC inputs. The -12 V line is also using a OpAmp to negate the voltage of the resistor divider to be within the 0..5V range of the ADC inputs.
@@ -107,3 +107,7 @@ Quantity	| File name
 1		| Taste7.stl
 1		| Taste8.stl
 1		| Taste9.stl
+
+## Firmware
+The firmware for this power supply and function generator is developed in another repository:
+[GitHub - M1S2/PS_Fgen_FW: Firmware for an Power Supply and Function Generator build from an ATX power supply](https://github.com/M1S2/PS_Fgen_FW)

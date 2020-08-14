@@ -1,4 +1,15 @@
-# PowerSupplySigGen
+# PS_Fgen_HW
+
+## [%version%] - %date%
+
+> Electrical > FrontPanel
+- Nothing changed (equal to v1.1)
+
+> Electrical > MainBoard
+- Resistors added to convert 5V to 3.3V for LCD signals (A0, CS, MOSI, SCK)
+
+> Mechanical
+- Nothing changed (equal to v1.1)
 
 ## [v1.1] - 07.08.2020
 > Electrical > FrontPanel
