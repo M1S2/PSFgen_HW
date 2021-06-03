@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -28438,7 +28438,7 @@ Based on  the following source:
 </class>
 </classes>
 <parts>
-<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA16-P" device="" package3d_urn="urn:adsk.eagle:package:4314/1" override_package3d_urn="urn:adsk.eagle:package:22513599/2" override_package_urn="urn:adsk.eagle:footprint:4151/1"/>
+<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA16-P" device="" package3d_urn="urn:adsk.eagle:package:4314/1" override_package3d_urn="urn:adsk.eagle:package:22513599/2" override_package_urn="urn:adsk.eagle:footprint:4151/1" value="MEGA1284-P"/>
 <part name="IC2" library="nh-ic" deviceset="MCP4922" device="-E/SL" override_package3d_urn="urn:adsk.eagle:package:22514112/2" override_package_urn="urn:adsk.eagle:footprint:22514113/1"/>
 <part name="IC3" library="nh-ic" deviceset="MCP4921" device="-E/SN" override_package3d_urn="urn:adsk.eagle:package:22514205/2" override_package_urn="urn:adsk.eagle:footprint:22514206/1"/>
 <part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL074" device="D" package3d_urn="urn:adsk.eagle:package:16406/2" override_package3d_urn="urn:adsk.eagle:package:22514194/2" override_package_urn="urn:adsk.eagle:footprint:16137/1"/>
@@ -28505,9 +28505,7 @@ Based on  the following source:
 <part name="R26" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5V"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5V"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -28600,7 +28598,6 @@ Based on  the following source:
 <part name="GND_2" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_3" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_4" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
-<part name="ATX_PWRON" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TOPLED-2-" device="-" package3d_urn="urn:adsk.eagle:package:15835/1" override_package3d_urn="urn:adsk.eagle:package:22514101/2" override_package_urn="urn:adsk.eagle:footprint:15690/1"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -28645,10 +28642,10 @@ Based on  the following source:
 <part name="R40" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R41" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R42" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R43" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4"/>
-<part name="R44" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4"/>
-<part name="R45" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4"/>
-<part name="R46" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4"/>
+<part name="R43" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k"/>
+<part name="R44" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k"/>
+<part name="R45" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k"/>
+<part name="R46" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -28657,7 +28654,7 @@ Based on  the following source:
 <sheets>
 <sheet>
 <plain>
-<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
+<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PS_Fgen_HW
 v1.2</text>
 <text x="50.8" y="134.62" size="3.81" layer="97">DDS1 / DDS2</text>
 <text x="7.62" y="63.5" size="3.81" layer="97">Power Supply</text>
@@ -28895,15 +28892,8 @@ v1.2</text>
 <attribute name="NAME" x="150.495" y="23.622" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="150.749" y="21.082" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="G$1" x="200.66" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="198.755" y="38.862" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="199.009" y="36.322" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND10" gate="1" x="152.4" y="15.24" smashed="yes">
 <attribute name="VALUE" x="149.86" y="12.7" size="1.778" layer="96"/>
-</instance>
-<instance part="GND11" gate="1" x="200.66" y="30.48" smashed="yes">
-<attribute name="VALUE" x="198.12" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
@@ -29228,11 +29218,6 @@ v1.2</text>
 <wire x1="152.4" y1="17.78" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="200.66" y1="33.02" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="VSS"/>
 <wire x1="20.32" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -29524,12 +29509,8 @@ v1.2</text>
 <pinref part="R25" gate="G$1" pin="1"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="45.72" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="200.66" y1="40.64" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
 <junction x="193.04" y="43.18"/>
-<wire x1="213.36" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
-<junction x="200.66" y="43.18"/>
+<wire x1="213.36" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
 <label x="203.2" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -29620,7 +29601,7 @@ v1.2</text>
 <sheet>
 <plain>
 <text x="223.52" y="167.64" size="1.778" layer="91">(RST)</text>
-<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
+<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PS_Fgen_HW
 v1.2</text>
 <text x="154.94" y="172.72" size="3.81" layer="97" align="top-left">Display</text>
 <text x="170.18" y="43.18" size="3.81" layer="97" align="top-left">Display
@@ -29782,10 +29763,6 @@ Backlight</text>
 <instance part="GND_4" gate="P" x="58.42" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.023" y="93.2942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.563" y="88.138" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="ATX_PWRON" gate="P" x="15.24" y="78.74" smashed="yes">
-<attribute name="NAME" x="14.097" y="80.5942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="14.097" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="X2" gate="-1" x="233.68" y="43.18" smashed="yes">
 <attribute name="NAME" x="236.22" y="42.418" size="1.524" layer="95"/>
@@ -30384,13 +30361,6 @@ Backlight</text>
 <pinref part="P+25" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="ATX_PWR_ON" class="0">
-<segment>
-<pinref part="ATX_PWRON" gate="P" pin="P"/>
-<wire x1="17.78" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="35.56" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BL_A" class="0">
 <segment>
 <pinref part="X2" gate="-2" pin="S"/>
@@ -30640,7 +30610,7 @@ Backlight</text>
 <plain>
 <text x="231.14" y="68.58" size="1.778" layer="91" rot="R90">TX / green</text>
 <text x="246.38" y="68.58" size="1.778" layer="91" rot="R90">RX / red</text>
-<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
+<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PS_Fgen_HW
 v1.2</text>
 <text x="22.86" y="162.56" size="3.81" layer="97" align="top-left">Microcontroller</text>
 <text x="185.42" y="162.56" size="3.81" layer="97" align="top-left">ISP</text>
@@ -31177,13 +31147,6 @@ Connector</text>
 <pinref part="SV2" gate="1" pin="3"/>
 <wire x1="231.14" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
 <label x="233.68" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ATX_PWR_ON" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="(OC1A)PD5"/>
-<wire x1="88.9" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
-<label x="93.98" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="KEY_R4" class="0">

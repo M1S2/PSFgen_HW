@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OA" projecturn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OCNEMjAyMDAxMTAyNTQwMjAxNTE" f3durn="urn:adsk.wipprod:dm.lineage:h1ckcWdnRVyiVBv4xqEomw" pcbguid="a576bdb0-0f75-47d6-a048-163db8abff98" lastpulledtime="" lastsyncedchangeguid="f93fa148-d73c-a696-6ecf-d27c6a475278"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OA" projecturn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OCNEMjAyMDAxMTAyNTQwMjAxNTE" f3durn="urn:adsk.wipprod:dm.lineage:h1ckcWdnRVyiVBv4xqEomw" pcbguid="a576bdb0-0f75-47d6-a048-163db8abff98" lastpulledtime="" lastsyncedchangeguid="f93fa148-d73c-a696-6ecf-d27c6a475278" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="0a757cab-1d26-2fee-852c-39589efafcbf" lastpushedtime="2021-06-03T19:40:21Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="88" y2="0" width="0" layer="20"/>
 <wire x1="88" y1="0" x2="88" y2="46" width="0" layer="20"/>
@@ -97,10 +97,9 @@
 <text x="55.88" y="10.795" size="1.778" layer="22" rot="MR0">+5V</text>
 <text x="55.88" y="8.255" size="1.778" layer="22" rot="MR0">GND</text>
 <text x="55.88" y="5.715" size="1.778" layer="22" rot="MR0">NC</text>
-<text x="62.23" y="44.45" size="1.778" layer="21" align="top-left">PowerSupply SigGen
+<text x="62.23" y="44.45" size="1.778" layer="21" align="top-left">PS_Fgen_HW
 FrontPanel
-Juli 2020
-v1.0</text>
+v1.2</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

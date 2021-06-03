@@ -37,6 +37,7 @@ Two digital multimeter inputs are available.
 Connector	| DMM1		| DMM2
 ---------------	| -------------	| ---------------
 Input Range	| 0 .. 20 V DC	| 0 .. 20 V DC
+
 **Caution:** Negative voltages on the DMM inputs are not allowed!
 
 ### USB outputs

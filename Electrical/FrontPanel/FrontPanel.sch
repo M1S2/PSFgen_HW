@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8626,8 +8626,8 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PowerSupply SigGen
-v1.0</text>
+<text x="162.56" y="22.86" size="3.81" layer="94" align="top-left">PS_Fgen_HW
+v1.2</text>
 <text x="27.94" y="86.36" size="3.81" layer="97">Keypad</text>
 <text x="88.9" y="157.48" size="3.81" layer="97">Encoder</text>
 </plain>
