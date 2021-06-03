@@ -4,9 +4,14 @@
 
 > Electrical > FrontPanel
 - Nothing changed (equal to v1.1)
+- Updated to new project name (PS_Fgen_HW)
 
 > Electrical > MainBoard
 - Resistors added to convert 5V to 3.3V for LCD signals (A0, CS, MOSI, SCK)
+- Updated to new project name (PS_Fgen_HW)
+- Removed Z-Diode
+- Removed ATX_PWR_ON signal
+- Removed ATX_5V_SB input (combined VCC and +5V nets)
 
 > Mechanical
 - Nothing changed (equal to v1.1)
