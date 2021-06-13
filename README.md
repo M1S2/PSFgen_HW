@@ -1,12 +1,20 @@
 # PS_Fgen_HW
 Hardware for an PowerSupply and Functiongenerator build from an ATX power supply.
 
+![PS_Fgen_HW](/Images/HW_complete.jpg)
+
 ## ATX Supply
 The hardware of the power supply and function generator is based on the following ATX supply:
 ``Yuan Kee 230P ATX``
+
+![ATX](/Images/HW_ATX_Label.jpg)
+
 By using another ATX supply, some output capabilities can be changed / enhanced.
 
 ## Input / Output Capabilities
+
+![Connectors](/Images/HW_Connectors_near.jpg)
+
 The power supply and function generator features the following capabilites:
 
 ### Power Supply output (PS+)
@@ -54,6 +62,9 @@ Voltage			| 5 V	| 3,3 V	| 12 V	| -12 V
 Current (max.)		| 23 A	| 14 A	| 9 A	| 0.8 A
 
 ## User Interface
+
+![FrontPanel](/Images/HW_FrontPanel.jpg)
+
 The user interface is made up of the following components:
 - Graphical display: A 240x64 pixel graphical LCD is used to display the device status and current settings.
 - Encoder: A rotary encoder can be used for value editing and menu navigation.
@@ -76,6 +87,7 @@ The electronic is divided into two PCBs:
 The FrontPanel PCB was designed to be manufactured with toner transfer method.
 The MainBoard PCB was too complex for manual manufacturing and was therefore made by JLCPCB. 
 
+![MainBoard](/Images/HW_MainBoard.jpg)
 
 ## Housing
 All housing components are made for the above ATX supply and are not guaranteed to fit for any other ATX supply. Nevertheless all construction files are available in the Mechanical folder and can be adapted, if neccessary.
