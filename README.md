@@ -101,9 +101,9 @@ Quantity	| File name
 1		| FrontPanel_Rahmen.stl
 1		| Griff.stl
 1		| Plaettchen.stl
-1		| Schrift_Seitenteil_rechts.stl
-1		| Seitenteil_links.stl
-1		| Seitenteil_rechts.stl
+1		| Seitenteil_links.stl together with Schrift_Seitenteil_links.stl
+1		| Seitenteil_links_Schublade.stl
+1		| Seitenteil_rechts.stl together with Schrift_Seitenteil_rechts.stl
 1		| Taste_k.stl
 1		| Taste_komma.stl
 1		| Taste_links.stl
