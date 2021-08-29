@@ -28475,9 +28475,9 @@ Based on  the following source:
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="Q6" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="BD240" device="TO220BV" package3d_urn="urn:adsk.eagle:package:19394639/2" value="BD240"/>
 <part name="P-6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
-<part name="R21" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="4R7"/>
-<part name="R22" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="1R"/>
-<part name="R23" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R21" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="5R1"/>
+<part name="R22" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:23568/2" value="0R1"/>
+<part name="R23" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="R24" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4"/>
 <part name="Q7" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BC557" device="" package3d_urn="urn:adsk.eagle:package:29732/3"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -28628,6 +28628,8 @@ Based on  the following source:
 v1.2</text>
 <text x="50.8" y="134.62" size="3.81" layer="97">DDS1 / DDS2</text>
 <text x="7.62" y="63.5" size="3.81" layer="97">Power Supply</text>
+<text x="154.94" y="58.42" size="1.778" layer="91">0.5W</text>
+<text x="139.7" y="58.42" size="1.778" layer="91">20W</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="76.2" y="116.84" smashed="yes">
