@@ -12,8 +12,9 @@
 - Removed some Z-Diodes
 - Removed ATX_PWR_ON signal
 - Removed ATX_5V_SB input (combined VCC and +5V nets)
-- Removed Resistor R20 (PowerSupply, between OpAmp IC5B and transistors Q5 and Q6)
-- Changed Resistor values of PowerSupply current measurement circuit (R21, R22, R23)
+- Removed resistor R20 (PowerSupply, between OpAmp IC5B and transistors Q5 and Q6)
+- Changed resistor values of PowerSupply current measurement circuit (R21, R22, R23)
+- Changed power stage of PowerSupply channel
 
 > Mechanical
 - Nothing changed (equal to v1.1)
