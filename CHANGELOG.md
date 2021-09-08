@@ -14,6 +14,7 @@
 - Removed ATX_5V_SB input (combined VCC and +5V nets)
 - Removed resistor R20 (PowerSupply, between OpAmp IC5B and transistors Q5 and Q6)
 - Changed resistor values of PowerSupply current measurement circuit (R21, R22, R23)
+- Moved resistor R21 of current measurement circuit to be after this circuit
 - Changed power stage of PowerSupply channel
 
 > Mechanical
