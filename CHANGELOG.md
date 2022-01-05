@@ -18,7 +18,7 @@
 - Changed power stage of PowerSupply channel
 
 > Mechanical
-- Nothing changed (equal to v1.1)
+- Added Standfuss parts
 
 ## [v1.1] - 07.08.2020
 > Electrical > FrontPanel

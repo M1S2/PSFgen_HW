@@ -123,6 +123,7 @@ Quantity	| File name
 1		| Taste7.stl
 1		| Taste8.stl
 1		| Taste9.stl
+4		| Standfuss.stl
 
 ## Firmware
 The firmware for this power supply and function generator is developed in another repository:
