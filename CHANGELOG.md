@@ -17,6 +17,9 @@
 - Moved resistor R21 of current measurement circuit to be after this circuit
 - Changed power stage of PowerSupply channel
 
+> Electrical > DMMRectifier
+- Initial version of DMM Rectifier with simulation
+
 > Mechanical
 - Added Standfuss parts
 

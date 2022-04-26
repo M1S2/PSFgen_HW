@@ -1,0 +1,68 @@
+Circuit: * D:\Benutzer\V17\Dokumente\EAGLE\projects\PS_Fgen_HW\Electrical\DMMRectifier\Simulation\PrecisionRectifier.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by R3.
+WARNING: Less than two connections to node NC_02.  This node is used by R4.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 0.00013835
+vernier = 0.0416667
+vernier = 0.0555555
+Gmin = 0.000123773
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 0.000103812
+vernier = 0.131687
+Gmin = 7.81531e-005
+vernier = 0.175583
+vernier = 0.23411
+Gmin = 4.92981e-005
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 2.39847e-005
+vernier = 0.554928
+Gmin = 7.63633e-006
+vernier = 0.739903
+vernier = 0.986537
+Gmin = 1.25023e-006
+vernier = 1
+Gmin = 1.35332e-007
+Gmin = 1.45312e-008
+Gmin = 1.56028e-009
+Gmin = 1.67533e-010
+Gmin = 1.79888e-011
+Gmin = 1.93153e-012
+Gmin = 2.07396e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Direct Newton iteration for .op point succeeded.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Apr 20 23:10:07 2022
+Total elapsed time: 0.066 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1321
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 16
+fillins = 9
+solver = Normal
+Matrix Compiler1: 1.09 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 1.54 KB object code size  0.2/0.3/[0.1]
+
