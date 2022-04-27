@@ -16,12 +16,14 @@
 - Changed resistor values of PowerSupply current measurement circuit (R21, R22, R23)
 - Moved resistor R21 of current measurement circuit to be after this circuit
 - Changed power stage of PowerSupply channel
+- Modified DMM circuit to use DMMRectifier PCB
 
 > Electrical > DMMRectifier
 - Initial version of DMM Rectifier with simulation
 
 > Mechanical
 - Added Standfuss parts
+- Modified Seitenteil_rechts for DMMRectifier
 
 ## [v1.1] - 07.08.2020
 > Electrical > FrontPanel

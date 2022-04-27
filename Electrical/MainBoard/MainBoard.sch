@@ -28599,16 +28599,6 @@ Based on  the following source:
 <part name="R33" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="R35" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
-<part name="R36" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="24k"/>
-<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5V"/>
-<part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R37" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
-<part name="R38" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="24k"/>
-<part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="5V"/>
-<part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DMM1" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="DMM2" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 <part name="GND_DMM" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
@@ -28636,6 +28626,8 @@ Based on  the following source:
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="Q6" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC547" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="DMM1_NEG" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
+<part name="DMM2_NEG" library="OwnDevices" library_urn="urn:adsk.eagle:library:19498084" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -29570,9 +29562,14 @@ v1.2</text>
 <text x="170.18" y="43.18" size="3.81" layer="97" align="top-left">Display
 Backlight</text>
 <text x="12.7" y="58.42" size="3.81" layer="97" align="top-left">Voltage Monitors</text>
-<text x="106.68" y="104.14" size="3.81" layer="97" align="top-left">DMM</text>
+<text x="116.84" y="104.14" size="3.81" layer="97" align="top-left">DMM</text>
 <text x="81.28" y="170.18" size="3.81" layer="97" align="top-left">USB Power</text>
 <text x="12.7" y="167.64" size="3.81" layer="97" align="top-left">ATX Power Input</text>
+<text x="127" y="78.74" size="1.778" layer="91">DMM1 &amp; DMM2 input range:
+0 .. 5 V
+
+DMM1_NEG &amp; DMM2_NEG indicate
+a negative voltage on DMM1 or DMM2</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -29894,49 +29891,13 @@ Backlight</text>
 <instance part="GND40" gate="1" x="185.42" y="55.88" smashed="yes">
 <attribute name="VALUE" x="182.88" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="96.52" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.9325" y="91.44" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="94.615" y="88.9" size="1.778" layer="96" rot="R180"/>
+<instance part="DMM1" gate="P" x="86.36" y="91.44" smashed="yes">
+<attribute name="NAME" x="85.217" y="93.2942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.217" y="88.138" size="1.778" layer="96"/>
 </instance>
-<instance part="R36" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.9325" y="78.74" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="94.615" y="76.2" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="D8" gate="G$1" x="104.14" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.235" y="76.962" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="102.489" y="74.422" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND42" gate="1" x="96.52" y="68.58" smashed="yes">
-<attribute name="VALUE" x="93.98" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="GND43" gate="1" x="104.14" y="68.58" smashed="yes">
-<attribute name="VALUE" x="101.6" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="R37" gate="G$1" x="134.62" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="133.0325" y="91.44" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="132.715" y="88.9" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R38" gate="G$1" x="134.62" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="133.0325" y="78.74" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="132.715" y="76.2" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="D9" gate="G$1" x="142.24" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.335" y="76.962" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="140.589" y="74.422" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND44" gate="1" x="134.62" y="68.58" smashed="yes">
-<attribute name="VALUE" x="132.08" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="GND45" gate="1" x="142.24" y="68.58" smashed="yes">
-<attribute name="VALUE" x="139.7" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="DMM1" gate="P" x="91.44" y="96.52" smashed="yes">
-<attribute name="NAME" x="90.297" y="98.3742" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.297" y="93.218" size="1.778" layer="96"/>
-</instance>
-<instance part="DMM2" gate="P" x="129.54" y="96.52" smashed="yes">
-<attribute name="NAME" x="128.397" y="98.3742" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.397" y="93.218" size="1.778" layer="96"/>
+<instance part="DMM2" gate="P" x="86.36" y="86.36" smashed="yes">
+<attribute name="NAME" x="85.217" y="88.2142" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.217" y="83.058" size="1.778" layer="96"/>
 </instance>
 <instance part="GND_DMM" gate="P" x="58.42" y="86.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.023" y="88.2142" size="1.778" layer="95"/>
@@ -29991,6 +29952,14 @@ Backlight</text>
 </instance>
 <instance part="P+21" gate="1" x="200.66" y="35.56" smashed="yes">
 <attribute name="VALUE" x="195.58" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="DMM1_NEG" gate="P" x="86.36" y="81.28" smashed="yes">
+<attribute name="NAME" x="85.217" y="83.1342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.217" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="DMM2_NEG" gate="P" x="86.36" y="76.2" smashed="yes">
+<attribute name="NAME" x="85.217" y="78.0542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.217" y="72.898" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -30156,24 +30125,6 @@ Backlight</text>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="185.42" y1="58.42" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
 <junction x="185.42" y="60.96"/>
-</segment>
-<segment>
-<pinref part="R36" gate="G$1" pin="1"/>
-<pinref part="GND42" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="GND44" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="D8" gate="G$1" pin="A"/>
-<pinref part="GND43" gate="1" pin="GND"/>
-<wire x1="104.14" y1="73.66" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D9" gate="G$1" pin="A"/>
-<pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="142.24" y1="73.66" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -30404,50 +30355,6 @@ Backlight</text>
 <junction x="147.32" y="162.56"/>
 </segment>
 </net>
-<net name="DVM2_ADC" class="0">
-<segment>
-<pinref part="R37" gate="G$1" pin="1"/>
-<pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="83.82" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<junction x="134.62" y="81.28"/>
-<pinref part="D9" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="78.74" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<junction x="142.24" y="81.28"/>
-<label x="144.78" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DVM1_ADC" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="83.82" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
-<junction x="96.52" y="81.28"/>
-<pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="104.14" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="78.74" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
-<junction x="104.14" y="81.28"/>
-<label x="106.68" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="DMM1" gate="P" pin="P"/>
-<wire x1="93.98" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="96.52" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="DMM2" gate="P" pin="P"/>
-<wire x1="132.08" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="96.52" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="!LCD_CS" class="0">
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
@@ -30504,6 +30411,34 @@ Backlight</text>
 <wire x1="170.18" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="144.78" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 <junction x="170.18" y="147.32"/>
+</segment>
+</net>
+<net name="DMM2_NEG" class="0">
+<segment>
+<pinref part="DMM2_NEG" gate="P" pin="P"/>
+<wire x1="88.9" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
+<label x="106.68" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DMM1_NEG" class="0">
+<segment>
+<pinref part="DMM1_NEG" gate="P" pin="P"/>
+<wire x1="88.9" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="106.68" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DMM2" class="0">
+<segment>
+<pinref part="DMM2" gate="P" pin="P"/>
+<wire x1="88.9" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="106.68" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DMM1" class="0">
+<segment>
+<pinref part="DMM1" gate="P" pin="P"/>
+<wire x1="88.9" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<label x="106.68" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -31163,14 +31098,14 @@ Connector</text>
 <wire x1="25.4" y1="73.66" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DVM1_ADC" class="0">
+<net name="DMM1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC6)PA6"/>
 <wire x1="88.9" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <label x="93.98" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DVM2_ADC" class="0">
+<net name="DMM2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC7)PA7"/>
 <wire x1="88.9" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
@@ -31189,6 +31124,20 @@ Connector</text>
 <pinref part="IC1" gate="G$1" pin="(T0/XCK)PB0"/>
 <wire x1="88.9" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <label x="93.98" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DMM1_NEG" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="(OC1A)PD5"/>
+<wire x1="88.9" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="93.98" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DMM2_NEG" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="(ICP)PD6"/>
+<wire x1="88.9" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<label x="93.98" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
