@@ -90,6 +90,8 @@ The FrontPanel and DMMRectifier PCBs were designed to be manufactured with toner
 
 ![FrontPanel](/Images/HW_KeyPad_PCB_Front.jpg)
 
+![DMMRectifier](/Images/HW_DMMRectifier_1.jpg)
+
 The MainBoard PCB was too complex for manual manufacturing and was therefore made by JLCPCB.
 
 !!! :warning: Caution: The MainBoard was designed to a size of 100 x 100 mm to fit the maximum size of JLCPCB. Eagle changed the maximum board size to 100 x 80 mm in 2022. Therefore the board can't be modified anymore. !!! 
