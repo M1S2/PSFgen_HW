@@ -95,7 +95,7 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="7" fill="10" visible="yes" active="yes"/>
 <layer number="203" name="203bmp" color="7" fill="10" visible="yes" active="yes"/>
@@ -6204,16 +6204,16 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="DDS2 (green)"/>
 <part name="LED2" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="DDS1 (green)"/>
 <part name="LED3" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="PS (green)"/>
-<part name="R1" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="390"/>
-<part name="R2" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="390"/>
-<part name="R3" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="390"/>
+<part name="R1" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
+<part name="R2" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
+<part name="R3" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2" value="PINHD-1X7"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY4" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="+5V" device="" value="+5V"/>
 <part name="LED4" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="PS ERROR (red)"/>
-<part name="R4" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="390"/>
+<part name="R4" library="OwnDevices" library_urn="urn:adsk.wipprod:fs.file:vf.a4uZ8vxKQaeHmtfASYy_rA" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
 </parts>
 <sheets>
 <sheet>

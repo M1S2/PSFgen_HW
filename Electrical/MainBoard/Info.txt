@@ -1,0 +1,2 @@
+No gerber or other output files because the PCB isn't really up to date (and it won't be anymore).
+This is because of the new limitations of Fusion360 to a board size of 80x80 (previous was 100x100). The board must be completely redesigned.
