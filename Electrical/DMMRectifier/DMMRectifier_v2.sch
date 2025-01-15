@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -2773,29 +2773,29 @@ Source: K2.pdf</description>
 <rectangle x1="-5.975" y1="-1.6" x2="-3.625" y2="-0.575" layer="51"/>
 <rectangle x1="3.625" y1="-1.6" x2="5.975" y2="-0.575" layer="51" rot="R180"/>
 <rectangle x1="3.625" y1="0.575" x2="5.975" y2="1.6" layer="51" rot="R180"/>
-<polygon width="0.4064" layer="1">
-<vertex x="2.3383" y="1.35"/>
-<vertex x="0" y="2.7"/>
-<vertex x="-2.3383" y="1.35"/>
+<polygon width="0.4064" layer="1" pour="solid">
 <vertex x="-2.3383" y="-1.35"/>
 <vertex x="0" y="-2.7"/>
 <vertex x="2.3383" y="-1.35"/>
+<vertex x="2.3383" y="1.35"/>
+<vertex x="0" y="2.7"/>
+<vertex x="-2.3383" y="1.35"/>
 </polygon>
-<polygon width="0.4064" layer="29">
-<vertex x="2.3383" y="1.35"/>
-<vertex x="0" y="2.7"/>
-<vertex x="-2.3383" y="1.35"/>
+<polygon width="0.4064" layer="29" pour="solid">
 <vertex x="-2.3383" y="-1.35"/>
 <vertex x="0" y="-2.7"/>
 <vertex x="2.3383" y="-1.35"/>
+<vertex x="2.3383" y="1.35"/>
+<vertex x="0" y="2.7"/>
+<vertex x="-2.3383" y="1.35"/>
 </polygon>
-<polygon width="0.4064" layer="31">
-<vertex x="2.3383" y="1.35"/>
-<vertex x="0" y="2.7"/>
-<vertex x="-2.3383" y="1.35"/>
+<polygon width="0.4064" layer="31" pour="solid">
 <vertex x="-2.3383" y="-1.35"/>
 <vertex x="0" y="-2.7"/>
 <vertex x="2.3383" y="-1.35"/>
+<vertex x="2.3383" y="1.35"/>
+<vertex x="0" y="2.7"/>
+<vertex x="-2.3383" y="1.35"/>
 </polygon>
 </package>
 <package name="LUMILED" urn="urn:adsk.eagle:footprint:15680/1" library_version="14">
@@ -2825,21 +2825,21 @@ Source: K2.pdf</description>
 <rectangle x1="-5.975" y1="-1.6" x2="-3.625" y2="-0.575" layer="51"/>
 <rectangle x1="3.625" y1="-1.6" x2="5.975" y2="-0.575" layer="51" rot="R180"/>
 <rectangle x1="3.625" y1="0.575" x2="5.975" y2="1.6" layer="51" rot="R180"/>
-<polygon width="0.4064" layer="29">
-<vertex x="2.3383" y="1.35"/>
-<vertex x="0" y="2.7"/>
-<vertex x="-2.3383" y="1.35"/>
+<polygon width="0.4064" layer="29" pour="solid">
 <vertex x="-2.3383" y="-1.35"/>
 <vertex x="0" y="-2.7"/>
 <vertex x="2.3383" y="-1.35"/>
+<vertex x="2.3383" y="1.35"/>
+<vertex x="0" y="2.7"/>
+<vertex x="-2.3383" y="1.35"/>
 </polygon>
-<polygon width="0.4064" layer="31">
-<vertex x="2.3383" y="1.35"/>
-<vertex x="0" y="2.7"/>
-<vertex x="-2.3383" y="1.35"/>
+<polygon width="0.4064" layer="31" pour="solid">
 <vertex x="-2.3383" y="-1.35"/>
 <vertex x="0" y="-2.7"/>
 <vertex x="2.3383" y="-1.35"/>
+<vertex x="2.3383" y="1.35"/>
+<vertex x="0" y="2.7"/>
+<vertex x="-2.3383" y="1.35"/>
 </polygon>
 </package>
 <package name="LED10MM" urn="urn:adsk.eagle:footprint:15681/1" library_version="14">
@@ -2879,16 +2879,16 @@ Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1
 <rectangle x1="-1.75" y1="-1.1" x2="-1.6" y2="-0.6" layer="51"/>
 <rectangle x1="1.6" y1="-1.1" x2="1.75" y2="-0.6" layer="51" rot="R180"/>
 <rectangle x1="1.6" y1="0.6" x2="1.75" y2="1.1" layer="51" rot="R180"/>
-<polygon width="0.1016" layer="51">
+<polygon width="0.1016" layer="51" pour="solid">
+<vertex x="0.825" y="-1.35"/>
 <vertex x="1.55" y="-1.35"/>
 <vertex x="1.55" y="-0.625"/>
-<vertex x="0.825" y="-1.35"/>
 </polygon>
-<polygon width="0.1016" layer="21">
+<polygon width="0.1016" layer="21" pour="solid">
+<vertex x="0.825" y="-1.35"/>
 <vertex x="1.55" y="-1.35"/>
 <vertex x="1.55" y="-1.175"/>
 <vertex x="1" y="-1.175"/>
-<vertex x="0.825" y="-1.35"/>
 </polygon>
 </package>
 <package name="SML0805" urn="urn:adsk.eagle:footprint:15683/1" library_version="14">
@@ -3887,14 +3887,14 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
+<polygon width="0.1524" layer="94" pour="solid">
 <vertex x="-3.048" y="-1.27"/>
+<vertex x="-3.429" y="-2.159"/>
 <vertex x="-2.54" y="-1.778"/>
 </polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
+<polygon width="0.1524" layer="94" pour="solid">
 <vertex x="-2.921" y="-2.413"/>
+<vertex x="-3.302" y="-3.302"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 </symbol>
@@ -9791,8 +9791,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <sheets>
 <sheet>
 <plain>
-<text x="165.1" y="20.32" size="3.81" layer="94" align="top-left">PS_Fgen_HW
-v1.2</text>
+<text x="165.1" y="20.32" size="3.81" layer="94" align="top-left">PS_Fgen_HW</text>
 <text x="129.54" y="152.4" size="1.778" layer="91">DMMx_IN Range = -20 .. 20 V
 DMMx_OUT = 0 .. 5 V (max)
 
@@ -10032,30 +10031,30 @@ DMMx_NEG and LEDs indicate if the DMMx_IN signal is negative (TTL HIGH = negativ
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<label x="99.06" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="93.98" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="109.22" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="101.6" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<junction x="93.98" y="111.76"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="99.06" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="99.06" y="111.76" size="1.27" layer="95" xref="yes"/>
+<junction x="93.98" y="111.76"/>
 <junction x="93.98" y="101.6"/>
 </segment>
 <segment>
 <pinref part="SIG" gate="A" pin="4"/>
-<wire x1="182.88" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="187.96" y="91.44" size="1.778" layer="95"/>
+<wire x1="182.88" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="193.04" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DMM1_IN" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="22.86" y="132.08" size="1.778" layer="95"/>
+<wire x1="35.56" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
+<label x="30.48" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10076,14 +10075,14 @@ DMMx_NEG and LEDs indicate if the DMMx_IN signal is negative (TTL HIGH = negativ
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="137.16" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<label x="137.16" y="137.16" size="1.27" layer="95" xref="yes"/>
 <junction x="132.08" y="137.16"/>
-<label x="132.08" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SIG" gate="A" pin="3"/>
-<wire x1="182.88" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<label x="187.96" y="88.9" size="1.778" layer="95"/>
+<wire x1="182.88" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
+<label x="193.04" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -10156,30 +10155,30 @@ DMMx_NEG and LEDs indicate if the DMMx_IN signal is negative (TTL HIGH = negativ
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="55.88" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
-<label x="22.86" y="60.96" size="1.778" layer="95"/>
+<wire x1="35.56" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<label x="30.48" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DMM2_OUT" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<label x="99.06" y="40.64" size="1.778" layer="95"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
-<wire x1="93.98" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="30.48" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<junction x="93.98" y="40.64"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="27.94" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="99.06" y="40.64" size="1.27" layer="95" xref="yes"/>
+<junction x="93.98" y="40.64"/>
 <junction x="93.98" y="30.48"/>
 </segment>
 <segment>
 <pinref part="SIG" gate="A" pin="2"/>
-<wire x1="182.88" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="187.96" y="86.36" size="1.778" layer="95"/>
+<wire x1="182.88" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<label x="193.04" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DMM2_NEG" class="0">
@@ -10188,15 +10187,15 @@ DMMx_NEG and LEDs indicate if the DMMx_IN signal is negative (TTL HIGH = negativ
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="66.04" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<junction x="132.08" y="66.04"/>
-<label x="132.08" y="66.04" size="1.778" layer="95"/>
+<wire x1="132.08" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="OUT"/>
+<label x="137.16" y="66.04" size="1.27" layer="95" xref="yes"/>
+<junction x="132.08" y="66.04"/>
 </segment>
 <segment>
 <pinref part="SIG" gate="A" pin="1"/>
-<wire x1="182.88" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="187.96" y="83.82" size="1.778" layer="95"/>
+<wire x1="182.88" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<label x="193.04" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

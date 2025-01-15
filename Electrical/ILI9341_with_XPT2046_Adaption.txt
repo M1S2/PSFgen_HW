@@ -1,0 +1,18 @@
+The display is adapted to separate the XPT2046 and ILI9341 controller voltage levels.
+Cut the voltage input line to the XPT2046 controller and connect it directly to the VCC input.
+
+The following voltage levels can be used then:
+T_IRQ		+5V
+T_DO		+5V
+T_DIN		+5V
+T_CS		+5V
+T_CLK		+5V
+SDO(MISO)	+3V3
+LED		+3V3
+SCK		+3V3
+SDI(MOSI)	+3V3
+DC		+3V3
+RESET		+3V3
+CS		+3V3
+GND		-
+VCC		+5V

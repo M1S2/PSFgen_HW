@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -56,10 +56,9 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OA" projecturn="a.YnVzaW5lc3M6bXlnbXgxMjQ4OCNEMjAyMDAxMTAyNTQwMjAxNTE" f3durn="urn:adsk.wipprod:dm.lineage:46DH-yExQTC_VETmAdC5Qw" pcbguid="" lastpulledtime="2022-04-22T18:49:16Z" lastsyncedchangeguid="" latestrevisionid="d248e281-d329-4736-b1ec-6931728040e8" lastsyncedrevisionid="d248e281-d329-4736-b1ec-6931728040e8" lastboardhashguid="ffbfc86b-3f43-1e34-34c2-e2eddc3fa6f1" lastpushedtime="2022-04-24T16:50:43Z" linktopcb3d="true"/>
 <plain>
 <hole x="0.0135" y="23" drill="3.8"/>
 <hole x="36.0135" y="23" drill="3.8"/>
@@ -336,7 +335,22 @@ Based on the following sources:
 <class number="0" name="default" width="0.508" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="Fusion Electronics Design Rules">
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
+<param name="mdSmdPad" value="10mil"/>
+<param name="mdSmdVia" value="10mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdCopperDimension" value="5mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -354,22 +368,9 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="10mil"/>
-<param name="mdWirePad" value="10mil"/>
-<param name="mdWireVia" value="10mil"/>
-<param name="mdPadPad" value="10mil"/>
-<param name="mdPadVia" value="10mil"/>
-<param name="mdViaVia" value="10mil"/>
-<param name="mdSmdPad" value="10mil"/>
-<param name="mdSmdVia" value="10mil"/>
-<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="5mil"/>
-<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -410,10 +411,7 @@ design rules under a new name.</description>
 <param name="srMaxRoundness" value="0mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
-<param name="dpMaxLengthDifference" value="10mm"/>
-<param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
-<param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
@@ -673,27 +671,37 @@ design rules under a new name.</description>
 <contactref element="D3" pad="A"/>
 <contactref element="IC1" pad="12"/>
 <contactref element="POWER" pad="2"/>
-<via x="0" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes"/>
+<via x="0" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes">
+</via>
 <contactref element="R5" pad="1"/>
 <contactref element="R10" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.4064">
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" isolate="0.4064" thermals="yes">
 <vertex x="-5" y="0"/>
 <vertex x="43" y="0"/>
 <vertex x="43" y="42.5"/>
 <vertex x="-5" y="42.5"/>
 </polygon>
-<via x="5" y="25" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="5" y="17.5" extent="1-16" drill="0.5" diameter="1.5"/>
+<via x="5" y="25" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="5" y="17.5" extent="1-16" drill="0.5" diameter="1.5">
+</via>
 <wire x1="5" y1="17.5" x2="5" y2="25" width="0.508" layer="16"/>
-<via x="15" y="12.5" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="15" y="6" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="17.5" y="12.5" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="17.5" y="16.75" extent="1-16" drill="0.5" diameter="1.5"/>
+<via x="15" y="12.5" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="15" y="6" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="17.5" y="12.5" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="17.5" y="16.75" extent="1-16" drill="0.5" diameter="1.5">
+</via>
 <wire x1="17.5" y1="12.5" x2="17.5" y2="16.75" width="0.508" layer="16"/>
 <wire x1="15" y1="6" x2="15" y2="12.5" width="0.508" layer="16"/>
-<via x="33.5" y="36" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="33.5" y="40" extent="1-16" drill="0.5" diameter="1.5"/>
+<via x="33.5" y="36" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="33.5" y="40" extent="1-16" drill="0.5" diameter="1.5">
+</via>
 <wire x1="33.5" y1="36" x2="33.5" y2="40" width="0.508" layer="16"/>
+<wire x1="5" y1="25" x2="0" y2="23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DMM1_OUT">
 <contactref element="D2" pad="C"/>
@@ -714,7 +722,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DMM1_IN">
 <contactref element="R1" pad="2"/>
-<via x="36" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes"/>
+<via x="36" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes">
+</via>
 <wire x1="36" y1="23" x2="36" y2="17.02" width="0.508" layer="1"/>
 <wire x1="36" y1="17.02" x2="36.04" y2="16.98" width="0.508" layer="1"/>
 </signal>
@@ -753,8 +762,10 @@ design rules under a new name.</description>
 <wire x1="36.84" y1="29.6" x2="33.6" y2="29.6" width="0.508" layer="1"/>
 <wire x1="33.6" y1="29.6" x2="31" y2="27" width="0.508" layer="1"/>
 <wire x1="31" y1="27" x2="31" y2="16" width="0.508" layer="1"/>
-<via x="31" y="16" extent="1-16" drill="0.5" diameter="1.5"/>
-<via x="31" y="5.5" extent="1-16" drill="0.5" diameter="1.5"/>
+<via x="31" y="16" extent="1-16" drill="0.5" diameter="1.5">
+</via>
+<via x="31" y="5.5" extent="1-16" drill="0.5" diameter="1.5">
+</via>
 <wire x1="11.87" y1="7.84" x2="17.66" y2="7.84" width="0.508" layer="1"/>
 <wire x1="20" y1="5.5" x2="31" y2="5.5" width="0.508" layer="1"/>
 <wire x1="17.66" y1="7.84" x2="20" y2="5.5" width="0.508" layer="1"/>
@@ -816,7 +827,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DMM2_IN">
 <contactref element="R6" pad="2"/>
-<via x="18" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes"/>
+<via x="18" y="23" extent="1-16" drill="3.8" diameter="7.8" locked="yes">
+</via>
 <wire x1="18" y1="23" x2="23" y2="23" width="0.508" layer="1"/>
 <wire x1="23" y1="23" x2="23.5" y2="22.5" width="0.508" layer="1"/>
 <wire x1="23.5" y1="22.5" x2="23.5" y2="20.45" width="0.508" layer="1"/>
@@ -868,6 +880,35 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,338cd164a9a3d86b"/>
+<approved hash="4,1,f903e111716b6979"/>
+<approved hash="4,1,e933f12de157f949"/>
+<approved hash="4,1,96d38ececeb4d6a9"/>
+<approved hash="4,1,b7a393a1588d01eb"/>
+<approved hash="4,1,38d16a7bdc52680c"/>
+<approved hash="4,1,58d17a783ca9940c"/>
+<approved hash="4,1,e7a3e3a150652deb"/>
+<approved hash="4,1,81c77bdcfd526cec"/>
+<approved hash="4,1,86ec8674d35d2eda"/>
+<approved hash="4,1,1214128ccfa53222"/>
+<approved hash="4,1,f1c4b3df05b988ec"/>
+<approved hash="4,1,390e18f2bea1ed7a"/>
+<approved hash="4,1,05ec0c81e77f18d9"/>
+<approved hash="4,16,f903e111716b6979"/>
+<approved hash="4,16,e933f12de157f949"/>
+<approved hash="4,16,96d38ececeb4d6a9"/>
+<approved hash="3,1,8e9ffb35ff118abb"/>
+<approved hash="3,1,b005c7afc34bb4e1"/>
+<approved hash="3,1,a1748a948e8ea56e"/>
+<approved hash="5,1,4d8102c06a7fd364"/>
+<approved hash="5,1,e531e169a2d5d0f4"/>
+<approved hash="5,1,6002dde636606c01"/>
+<approved hash="2,20,85279ef265c67e13"/>
+<approved hash="2,20,0d1716f185c59e23"/>
+<approved hash="2,20,72f7691dba29a1c3"/>
+<approved hash="21,19,63b863b89fbb63bb"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
@@ -875,11 +916,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

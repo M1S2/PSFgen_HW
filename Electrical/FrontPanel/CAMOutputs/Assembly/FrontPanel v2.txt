@@ -1,4 +1,4 @@
-StÃ¼ckliste exportiert aus D:/Benutzer/V17/Dokumente/EAGLE/projects/PowerSupplySigGen/FrontPanel/v1.0/FrontPanel.sch am 29.07.2020 20:42
+Stückliste exportiert aus Fusion-Hub: Scheich Projekt: Default Project Leiterplatte: FrontPanel v2 am 15.01.2025 19:53
 
 Qty Value    Device        Package       Parts                                                                 Description                                  MF MPN          OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX
 16           KURZHUBTASTER B3F-10XX      S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16 OMRON SWITCH                                                                                            
